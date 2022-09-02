@@ -1,0 +1,50 @@
+Documentation of project2
+
+`sudo apt update`
+`sudo apt install nginx`
+`sudo systemctl status nginx`
+![nginx status](./images.png)
+`sudo apt install mysql-server`
+`sudo mysql`
+![mysql-status](./images.png)
+`sudo mysql_secure_installation`
+`sudo mysql -p`
+`sudo apt install php-fpm php-mysql`
+`sudo mkdir /var/www/projectLEMP`
+`sudo chown -R $USER:$USER /var/www/projectLEMP`
+`sudo nano /etc/nginx/sites-available/projectLEMP`
+`sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/`
+`sudo nginx -t`
+![sudo nginx -t status](./images.png)
+`sudo unlink /etc/nginx/sites-enabled/default`
+`sudo systemctl reload nginx`
+`sudo nano /var/www/projectLEMP/info.php`
+`sudo rm /var/www/your_domain/info.php`
+`sudo mysql`
+![sudo mysql status](./images.png)
+`mysql> CREATE DATABASE `example_database`;`
+`mysql -u example_user -p`
+`mysql> SHOW DATABASES;`
+![todo list](./image.png)
+`nano /var/www/projectLEMP/todo_list.php`
+![Todo content status](./image.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
